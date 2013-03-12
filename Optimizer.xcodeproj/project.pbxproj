@@ -6,20 +6,111 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E8DA377516EEC4420044B8B3 /* Procedure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DA376916EEC4420044B8B3 /* Procedure.cpp */; };
+		E8DA377616EEC4420044B8B3 /* DataflowAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DA376C16EEC4420044B8B3 /* DataflowAnalyzer.cpp */; };
+		E8DA377716EEC4420044B8B3 /* Instruction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DA376E16EEC4420044B8B3 /* Instruction.cpp */; };
+		E8DA377816EEC4420044B8B3 /* BasicBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DA376F16EEC4420044B8B3 /* BasicBlock.cpp */; };
+		E8DA377916EEC4420044B8B3 /* CLanguageGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DA377116EEC4420044B8B3 /* CLanguageGenerator.cpp */; };
+		E8DA377A16EEC4420044B8B3 /* ThreeAddrCodeParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DA377316EEC4420044B8B3 /* ThreeAddrCodeParser.cpp */; };
+		E8DA377C16EEC45F0044B8B3 /* Optimize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DA377B16EEC45F0044B8B3 /* Optimize.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E88C7D15149A097E00DAD6F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E88C7D17149A097E00DAD6F9 /* Optimizer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Optimizer; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DA376916EEC4420044B8B3 /* Procedure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Procedure.cpp; sourceTree = "<group>"; };
+		E8DA376A16EEC4420044B8B3 /* Procedure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Procedure.h; sourceTree = "<group>"; };
+		E8DA376B16EEC4420044B8B3 /* DataflowAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataflowAnalyzer.h; sourceTree = "<group>"; };
+		E8DA376C16EEC4420044B8B3 /* DataflowAnalyzer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataflowAnalyzer.cpp; sourceTree = "<group>"; };
+		E8DA376D16EEC4420044B8B3 /* Instruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instruction.h; sourceTree = "<group>"; };
+		E8DA376E16EEC4420044B8B3 /* Instruction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Instruction.cpp; sourceTree = "<group>"; };
+		E8DA376F16EEC4420044B8B3 /* BasicBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BasicBlock.cpp; sourceTree = "<group>"; };
+		E8DA377016EEC4420044B8B3 /* BasicBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicBlock.h; sourceTree = "<group>"; };
+		E8DA377116EEC4420044B8B3 /* CLanguageGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLanguageGenerator.cpp; sourceTree = "<group>"; };
+		E8DA377216EEC4420044B8B3 /* CLanguageGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLanguageGenerator.h; sourceTree = "<group>"; };
+		E8DA377316EEC4420044B8B3 /* ThreeAddrCodeParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreeAddrCodeParser.cpp; sourceTree = "<group>"; };
+		E8DA377416EEC4420044B8B3 /* ThreeAddrCodeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeAddrCodeParser.h; sourceTree = "<group>"; };
+		E8DA377B16EEC45F0044B8B3 /* Optimize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Optimize.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E88C7D14149A097E00DAD6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
 		E88C7CFD149A08F900DAD6F9 = {
 			isa = PBXGroup;
 			children = (
+				E8DA377B16EEC45F0044B8B3 /* Optimize.cpp */,
+				E8DA376916EEC4420044B8B3 /* Procedure.cpp */,
+				E8DA376A16EEC4420044B8B3 /* Procedure.h */,
+				E8DA376B16EEC4420044B8B3 /* DataflowAnalyzer.h */,
+				E8DA376C16EEC4420044B8B3 /* DataflowAnalyzer.cpp */,
+				E8DA376D16EEC4420044B8B3 /* Instruction.h */,
+				E8DA376E16EEC4420044B8B3 /* Instruction.cpp */,
+				E8DA376F16EEC4420044B8B3 /* BasicBlock.cpp */,
+				E8DA377016EEC4420044B8B3 /* BasicBlock.h */,
+				E8DA377116EEC4420044B8B3 /* CLanguageGenerator.cpp */,
+				E8DA377216EEC4420044B8B3 /* CLanguageGenerator.h */,
+				E8DA377316EEC4420044B8B3 /* ThreeAddrCodeParser.cpp */,
+				E8DA377416EEC4420044B8B3 /* ThreeAddrCodeParser.h */,
+				E88C7D18149A097E00DAD6F9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+		E88C7D18149A097E00DAD6F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E88C7D17149A097E00DAD6F9 /* Optimizer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E88C7D16149A097E00DAD6F9 /* Optimizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E88C7D1F149A097E00DAD6F9 /* Build configuration list for PBXNativeTarget "Optimizer" */;
+			buildPhases = (
+				E88C7D13149A097E00DAD6F9 /* Sources */,
+				E88C7D14149A097E00DAD6F9 /* Frameworks */,
+				E88C7D15149A097E00DAD6F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Optimizer;
+			productName = Optimizer;
+			productReference = E88C7D17149A097E00DAD6F9 /* Optimizer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		E88C7CFF149A08F900DAD6F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Peking University";
 			};
 			buildConfigurationList = E88C7D02149A08F900DAD6F9 /* Build configuration list for PBXProject "Optimizer" */;
@@ -30,23 +121,91 @@
 				en,
 			);
 			mainGroup = E88C7CFD149A08F900DAD6F9;
+			productRefGroup = E88C7D18149A097E00DAD6F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				E88C7D16149A097E00DAD6F9 /* Optimizer */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E88C7D13149A097E00DAD6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DA377516EEC4420044B8B3 /* Procedure.cpp in Sources */,
+				E8DA377616EEC4420044B8B3 /* DataflowAnalyzer.cpp in Sources */,
+				E8DA377716EEC4420044B8B3 /* Instruction.cpp in Sources */,
+				E8DA377816EEC4420044B8B3 /* BasicBlock.cpp in Sources */,
+				E8DA377916EEC4420044B8B3 /* CLanguageGenerator.cpp in Sources */,
+				E8DA377A16EEC4420044B8B3 /* ThreeAddrCodeParser.cpp in Sources */,
+				E8DA377C16EEC45F0044B8B3 /* Optimize.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		E88C7D04149A08F900DAD6F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 			};
 			name = Debug;
 		};
 		E88C7D05149A08F900DAD6F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+			};
+			name = Release;
+		};
+		E88C7D20149A097E00DAD6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E88C7D21149A097E00DAD6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -58,6 +217,15 @@
 			buildConfigurations = (
 				E88C7D04149A08F900DAD6F9 /* Debug */,
 				E88C7D05149A08F900DAD6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E88C7D1F149A097E00DAD6F9 /* Build configuration list for PBXNativeTarget "Optimizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88C7D20149A097E00DAD6F9 /* Debug */,
+				E88C7D21149A097E00DAD6F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
