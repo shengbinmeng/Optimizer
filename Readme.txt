@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
-
-# A script that invokes your compiler.
-./optimize $1 $2 <$3
+This is class project. See http://sei.pku.edu.cn/~yaoguo/ACT11/.
+To build, use the GNU Make system or Xcode project.
+./optimizer-report.rtf is a simple report doc.
