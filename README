@@ -1,5 +1,3 @@
-Please write your name and ID in this file.
-Name: ÃÏÊ¤±ò  ID: 1101111141
-Name: ËÎ×ÓÇÙ  ID: 1001213686
-
-Report: ./optimizer-report.rtf
+This is class project. See http://sei.pku.edu.cn/~yaoguo/ACT11/.
+To build, use the GNU Make system or Xcode project.
+./optimizer-report.rtf is a simple report doc.
